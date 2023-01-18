@@ -1,25 +1,24 @@
 ## Hashing and Encryption
 
-1. What's the difference between hashing and encryption? 
-   - One-way hashing/non-reversible
-   - Encrypted data can be decrypted using keys.
+1. What's the difference between hashing and encryption?
+	- One-way hashing/non-reversible
+	- Encrypted data can be decrypted using keys.
 2. What's your favourite programming language? And in your favourite language, what method would you use to reverse the MD5 hash?
-   - To assess candidates' understanding of hashing, any type of hash cannot be reversed; it is one way.
+	- To assess candidates' understanding of hashing, any type of hash cannot be reversed; it is one way.
 3. Where would you use slow hashing algorithms? Explain salted hash?
-  - Typically, when hashing passwords,
-   - 
+	- Typically, when hashing passwords,
 4. Where would you use fast hashing algorithms?
-   - Message integrity checks
+	- Message integrity checks
 5. What are different types of encryption? Give an example/use-case of each? Name the encryption algorithms that you have used.
-   - Symmetric
-   - Asymmetric
+	- Symmetric
+	- Asymmetric
 6. A developer needs to use the AWS KMS service. What recommendations would you provide?
-- Consider key storage, whether in an HSM or in AWS internal storage; selecting between CMKs and AWS managed keys; and key rotation and revoking keys, securing access to keys
+	- Consider key storage, whether in an HSM or in AWS internal storage; selecting between CMKs and AWS managed keys; and key rotation and revoking keys, securing access to keys
 
-7. Have you used any key management services? How does KMS work? 
+7. Have you used any key management services? How does KMS work?
 
 8. Explain end-to-end encryption. Give an example of an app using e2e encryption.
-
+	- Whats App	
 ## Authentication and Authorization
 
 1. Explain identification and how it's different from authentication.
@@ -29,11 +28,11 @@
 3. Do you think one authentication method, like single sign-on, two-factor authentication, or multifactor authentication, is more effective than another?
 
 3. Explain authorization. A developer needs help with a new authorization module or scheme—what would you suggest?
-   - JWT's
-   - ACLs
-   - IAM
+	- JWT's
+	- ACLs
+	- IAM
 
-4. Have you worked with OAuth2/OpenID standards? What's its purpose? How does it work? 
+4. Have you worked with OAuth2/OpenID standards? What's its purpose? How does it work?
 
 5. In the OAuth2 context, explain Resource owner, resource server, authorization server, and client application?
 
@@ -69,11 +68,11 @@
 
 ## Extras
 
-1. How would you approach the security assessment of a web application/SPA? 
+1. How would you approach the security assessment of a web application/SPA?
 
 2. Could you describe your process for handling client RFIs (requests for information)?
 
-3. How would you secure a CI/CD pipeline? 
+3. How would you secure a CI/CD pipeline?
 
 4. Explain the DevSecOps approach.
 
@@ -84,18 +83,18 @@
 
 A developer is working on a payment app, and BA/dev needs your assistance in gathering security requirements.What would you consider?
 
-What's your experience with software development methodologies? 
- - agile, secure SDLC, devOps model 
+What's your experience with software development methodologies?
+	- agile, secure SDLC, devOps model
 
 What is the difference between static and dynamic analysis?
 
-Why are code reviews performed? How would you conduct a manual code review? 
+Why are code reviews performed? How would you conduct a manual code review?
 
 Which SAST and DAST tools have you used? How would you triage SAST, DAST findings?
 
-Have you used the SAST tool with cloud native applications? Tell me more about that experience? 
+Have you used the SAST tool with cloud native applications? Tell me more about that experience?
 
-What is threat modeling? Why do we conduct threat modelling? 
+What is threat modeling? Why do we conduct threat modelling?
 
 How would you threat model a web application or payment app?
 
@@ -110,8 +109,3 @@ How would you relate the severity of an issue to business risk?
 How would you persuade stakeholders from various backgrounds to prioritise fixes for the issues you discovered?
 
 What challenges could you face while performing a security assessment of a web application?
-
-
-
-
-
