@@ -21,11 +21,12 @@
 	- Whats App	
 ## Authentication and Authorization
 
-1. Explain identification and how it's different from authentication.
+1. Explain identification and how it's different from authentication. 
 
 2. What are the various authentication methods you have worked with?
+3. Explain token based authentication vs session/cookie based authentication?
 
-3. Do you think one authentication method, like single sign-on, two-factor authentication, or multifactor authentication, is more effective than another?
+4. Do you think one authentication method, like single sign-on, two-factor authentication, or multifactor authentication, is more effective than another?
 
 3. Explain authorization. A developer needs help with a new authorization module or scheme—what would you suggest?
 	- JWT's
@@ -66,6 +67,8 @@
 
 4. Explain indirect object references. IDOR? How would you mitigate IDOR?
 
+5. SQL Injection Vs Blind SQL Injection? Mitigations against SQL Injections 
+
 ## Extras
 
 1. How would you approach the security assessment of a web application/SPA?
@@ -97,6 +100,10 @@ Have you used the SAST tool with cloud native applications? Tell me more about t
 What is threat modeling? Why do we conduct threat modelling?
 
 How would you threat model a web application or payment app?
+
+Difference between Object and class?
+
+Difference between session and cookie?
 
 
 ## General
