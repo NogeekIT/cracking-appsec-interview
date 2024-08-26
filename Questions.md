@@ -23,10 +23,15 @@
 
 1. Explain identification and how it's different from authentication. 
 
-2. What are the various authentication methods you have worked with?
-3. Explain token based authentication vs session/cookie based authentication?
+2. What are the various authentication methods for web applications you have worked with?
+   - Cookie-Based Authentication.
+   - Token-Based Authentication.
+   - Third-Party Access (OAuth, API-token)
+   - OpenID Connect (OIDC)
+   - Security Assertion Markup Language (SAML)
+4. Explain token based authentication vs session/cookie based authentication?
 
-4. Do you think one authentication method, like single sign-on, two-factor authentication, or multifactor authentication, is more effective than another?
+5. Do you think one authentication method, like single sign-on, two-factor authentication, or multifactor authentication, is more effective than another?
 
 3. Explain authorization. A developer needs help with a new authorization module or scheme—what would you suggest?
 	- JWT's
