@@ -61,6 +61,9 @@
 
 13 What is the distinction between IAM policy and IAM role?
 
+14. Difference between SOP and CORS? 
+	- https://kevincox.ca/2024/08/24/cors/?utm_source=tldrnewsletter&_bhlid=526a869a4002a0b92cd6a4ee5609fce0867a5942
+
 
 ## OWASP TOP 10
 
@@ -72,7 +75,10 @@
 
 4. Explain indirect object references. IDOR? How would you mitigate IDOR?
 
-5. SQL Injection Vs Blind SQL Injection? Mitigations against SQL Injections 
+5. SQL Injection Vs Blind SQL Injection? Mitigations against SQL Injections
+  
+6. How can an attacker exploit SSRF and what an application developer must do to prevent SSRF? how to bypass SSRF protection?
+	- https://vickieli.medium.com/bypassing-ssrf-protection-e111ae70727b 
 
 ## Extras
 
@@ -80,44 +86,101 @@
 
 2. Could you describe your process for handling client RFIs (requests for information)?
 
-3. How would you secure a CI/CD pipeline?
+# Software Supply Chain Security
 
-4. Explain the DevSecOps approach.
+1. What is Software composition Analysis?
+   - SCA tools used before, stale dependency vs top-level dependency
+   - Integration challenges
+   - ASPM
+2. How is software supply chain security different from software composition analysis?
+   
+3. 
 
-5. What's the difference between a session and a cookie?
+## DevSecOps
+
+1. How would you secure a CI/CD pipeline?
+
+2. Explain the DevSecOps approach.
+
+## API Security
+
+1. What have you done so far for API Security?
+   - experince with Api security scanners
+   - API inventory, API security testing etc
+
+2. What is BOLA? How is BOLA different from IDOR?
+   - https://shoutrange.com/insights/bola-vs-idor-what-is-the-difference#:~:text=Contextual%20Relevance%3A%20IDOR%20is%20often,a%20more%20granular%20object%20level
+  
+3. Explain Broken Funcation Level Access (BFLA)?
+   - certain function level access are avail to special users - like admin, super admins
 
 
 ## Secure Development
 
-A developer is working on a payment app, and BA/dev needs your assistance in gathering security requirements.What would you consider?
+1. A developer is working on a payment app, and BA/dev needs your assistance in gathering security requirements.What would you consider?
 
-What's your experience with software development methodologies?
+2. What's your experience with software development methodologies?
 	- agile, secure SDLC, devOps model
 
-What is the difference between static and dynamic analysis?
+3. What is the difference between static and dynamic analysis?
 
-Why are code reviews performed? How would you conduct a manual code review?
+4. Why are code reviews performed? How would you conduct a manual code review?
 
-Which SAST and DAST tools have you used? How would you triage SAST, DAST findings?
+5. Which SAST and DAST tools have you used? How would you triage SAST, DAST findings?
 
-Have you used the SAST tool with cloud native applications? Tell me more about that experience?
+6. Have you used the SAST tool with cloud native applications? Tell me more about that experience?
 
-What is threat modeling? Why do we conduct threat modelling?
+7. What is threat modeling? Why do we conduct threat modelling?
 
-How would you threat model a web application or payment app?
+8. How would you threat model a web application or payment app?
 
-Difference between Object and class?
+9. Difference between Object and class?
 
-Difference between session and cookie?
+10. What's the difference between a session and a cookie?
 
 
 ## General
-What's one challenge you experienced in your previous role?
 
-Can you recall any vulnerabilities you discovered? How did you fix it?
+1. What's the most difficult problem that you have fixed in your previous role?
 
-How would you relate the severity of an issue to business risk?
+2. What's one challenge you experienced in your previous role?
 
-How would you persuade stakeholders from various backgrounds to prioritise fixes for the issues you discovered?
+3. Can you recall any recent vulnerabilities you discovered/read? 
 
-What challenges could you face while performing a security assessment of a web application?
+4. How would you relate the severity of an issue to business risk?
+
+5. How would you persuade stakeholders from various backgrounds to prioritise fixes for the issues you discovered?
+
+6. What challenges could you face while performing a security assessment of a web application?
+
+**Case Study**
+Scenario:
+Your organisation has a critical legacy web application that has been in production for over a decade.
+While it still serves its purpose, its security posture is outdated and vulnerable to modern attack vectors. You've been tasked assessing and remediating the application's security vulnerabilities.
+
+Initial Assessment:
+
+* How would you approach the initial assessment of the application's security? What tools and techniques would you employ?
+* What specific vulnerabilities would you prioritise for immediate attention, given the application's age and complexity?
+
+Risk Assessment: 
+
+* What factors would you consider when determining the severity and priority of vulnerabilities?
+* How would you conduct a comprehensive risk assessment to understand the potential impact of vulnerabilities on the business?
+
+Remediation Strategy: 
+
+* Outline a remediation strategy that balances security improvements with the need to maintain the application's functionality.
+* How would you address legacy components or dependencies that may be difficult to replace or update?
+
+Secure Development Lifecycle (SDLC):
+
+* How would you integrate secure coding practices and automated testing into the application's development and maintenance processes?
+* What specific tools or frameworks would you recommend for implementing a secure SDLC?
+
+Incident Response:
+
+* Develop an incident response plan for the application, considering potential security breaches and data leaks.
+*  What key stakeholders would be involved in the incident response process, and what are their roles and responsibilities?
+
+
