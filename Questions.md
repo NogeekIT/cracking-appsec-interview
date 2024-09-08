@@ -31,7 +31,7 @@
    - Security Assertion Markup Language (SAML)
 4. Explain token based authentication vs session/cookie based authentication?
 
-5. Do you think one authentication method, like single sign-on, two-factor authentication, or multifactor authentication, is more effective than another?
+5. Do you think one authentication method, like single sign-on, or multifactor authentication, cookie based, API key based is more effective than another?
 
 3. Explain authorization. A developer needs help with a new authorization module or scheme—what would you suggest?
 	- JWT's
@@ -117,10 +117,10 @@
 
 ## Secure Development
 
-1. A developer is working on a payment app, and BA/dev needs your assistance in gathering security requirements.What would you consider?
+1. A developer is working on a payment app, and BA/dev needs your assistance in gathering security requirements. What would you consider?
 
 2. What's your experience with software development methodologies?
-	- agile, secure SDLC, devOps model
+	- agile, scrum, devOps model, kanban, waterfall
 
 3. What is the difference between static and dynamic analysis?
 
@@ -134,7 +134,7 @@
 
 8. How would you threat model a web application or payment app?
 
-9. Difference between Object and class?
+9. Difference between an Object and class?
 
 10. What's the difference between a session and a cookie?
 
@@ -154,6 +154,7 @@
 6. What challenges could you face while performing a security assessment of a web application?
 
 **Case Study**
+
 Scenario:
 Your organisation has a critical legacy web application that has been in production for over a decade.
 While it still serves its purpose, its security posture is outdated and vulnerable to modern attack vectors. You've been tasked assessing and remediating the application's security vulnerabilities.
