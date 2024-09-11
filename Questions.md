@@ -64,6 +64,9 @@
 14. Difference between SOP and CORS? 
 	- https://kevincox.ca/2024/08/24/cors/?utm_source=tldrnewsletter&_bhlid=526a869a4002a0b92cd6a4ee5609fce0867a5942
 
+15. What is Server-Side Template Injection?
+	- https://research.checkpoint.com/2024/server-side-template-injection-transforming-web-applications-from-assets-to-liabilities/?utm_source=appsec.beehiiv.com&utm_medium=newsletter&utm_campaign=reasonable-appsec-67-priorities-five-security-articles-and-podcast-corner&_bhlid=5e195e9860f07dd24a2dd7422061fff7a5bc74e7    
+
 
 ## OWASP TOP 10
 
@@ -89,7 +92,7 @@
 # Software Supply Chain Security
 
 1. What is Software composition Analysis?
-   - SCA tools used before, stale dependency vs top-level dependency
+   - SCA tools used before, OSS, stale dependency vs top-level dependency
    - Integration challenges
    - ASPM
 2. How is software supply chain security different from software composition analysis?
